@@ -1,61 +1,7 @@
-body {
-    font-family: sans-serif;
-    background-color: black;
-    color: white;
-    margin: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
-header h1 {
-    width: 280px;
-    height: 75px;
-}
-
-.button {
-    background-color: #36bbce;
-    padding: 15px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #000;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 24px;
-    color: #fff;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 34px;
-    margin-top: 45px;
-}
-
 p {
     font-weight: 400;
     font-size: 20px;
-    color: #000;
+    color: white;
 }
 
 .info {
@@ -66,16 +12,17 @@ p {
 }
 
 article {
-    background-color: white;
+    background-color: black;
     padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
+    color:white;
 }
 
 article h2 {
     font-weight: 700;
     font-size: 24px;
-    color: #000;
+    color: white;
 }
 
 
@@ -90,7 +37,7 @@ article h2 {
 }
 
 footer {
-    background: #2fa3b4;
+    background: black;
     display: flex;
     align-items: center;
     padding: 45px 0px 45px 70px;
@@ -103,8 +50,7 @@ footer a {
 footer p {
     font-size: 24px;
     font-weight: 700;
-    font-size: 24px;
-    color: #000;
+    color: white;
 }
 
 .about {
