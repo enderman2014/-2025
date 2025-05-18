@@ -127,3 +127,7 @@ footer p {
     height: 385px;
     margin-left: 30px;
 }
+
+.cat:hover{
+    color:palevioletred;
+}
