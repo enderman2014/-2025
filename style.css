@@ -1,3 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color:white;
+    color:black;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    width: 280px;
+    height: 75px;
+}
+
+.button {
+    background-color: #36bbce;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    margin-bottom: 34px;
+    margin-top: 45px;
+}
+
 p {
     font-weight: 400;
     font-size: 20px;
